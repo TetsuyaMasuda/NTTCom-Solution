@@ -6,4 +6,8 @@ class SolutionsController < ApplicationController
   def new
   end
 
+　def create
+   Solution.create(name: "", image: "", text: "")
+  end
+
 end
